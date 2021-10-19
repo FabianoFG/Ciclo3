@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Pedido.init({
-    dataPedido: DataTypes.DATEONLY
+    data: DataTypes.DATEONLY
   }, {
     sequelize,
     modelName: 'Pedido',
