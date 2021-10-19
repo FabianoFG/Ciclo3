@@ -10,7 +10,7 @@ module.exports = {
           model: 'pedidos',
           key : 'id'
         },
-        onDelete: 'CASCADE',
+        onDelete: null,
         onUpdate: 'CASCADE'
       },
       ServicoId: {
@@ -21,7 +21,7 @@ module.exports = {
           model: 'servicos',
           key: 'id'
         },
-        onDelete: 'CASCADE',
+        onDelete: null,
         onUpdate: 'CASCADE'
       },
       quantidade: {
